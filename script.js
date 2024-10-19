@@ -25,7 +25,7 @@ function sendMessage() {
     if (message) {
         addMessage('user', message);
         input.value = '';
-        
+        /* change to your domain zastai*/
         fetch('https://aideploymentmai.vercel.app/life_chat', {
             method: 'POST',
             headers: {
